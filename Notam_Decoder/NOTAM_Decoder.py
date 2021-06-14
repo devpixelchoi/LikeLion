@@ -31,7 +31,7 @@ window = Tk()
 window.title("NOTAM DECODER")
 
 # 01 입력 상자 설명 레이블
-label1 = Label(window, text = "CONTRACTIONS(Capital Letters Only) : ")
+label1 = Label(window, text = "CONTRACTIONS : ")
 label1.grid(row=0, column=0, sticky=W)
 
 # 02 텍스트 입력이 가능한 상자(Entry)
@@ -44,7 +44,7 @@ btn.grid(row=2, column=0, sticky=W)
 
 
 # 04 설명 레이블 - 의미
-label2 = Label(window, width=50, bg="light blue" ,text = "Answer : ")
+label2 = Label(window, width=50, bg="light blue" ,text = "DECODE : ")
 label2.grid(row=3,column=0) #, sticky=W)
 
 # 05 텍스트 박스 입력 상자
