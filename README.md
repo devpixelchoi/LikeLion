@@ -17,7 +17,8 @@
  * 3. Decoded data will be shown light pink area
    ex) "Runway" or "Work In Progress"
    
-   ![image](https://user-images.githubusercontent.com/85727063/122012988-b4924380-cdf8-11eb-85c9-4c6f289d25e3.png)
+   ![image](https://user-images.githubusercontent.com/85727063/122013132-d8ee2000-cdf8-11eb-8862-eff705b88d49.png)
+
 
    
 # Warining
