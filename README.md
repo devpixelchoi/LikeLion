@@ -4,7 +4,7 @@
  * tkinter practice project
 
 # How to Ues
- * Sample NOTAM(Notice To Airmen)
+ * Sample NOTAM(Notice To Airmen)  
  A0397/21 NOTAMN   
  Q) RKRR/QMRLC/IV/NBO/A/000/999/3728N12626E005  
  A) RKSI B) 2103311600 C) 2106161600  
