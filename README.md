@@ -11,11 +11,11 @@
  CREATED: 29 Mar 2021 00:18:00 
  SOURCE: RKRRYNYX
  
- * 1. Please input word of "E)" in "CONTRACTIONS(light yellow) \n
-   ex) "RWY" or "WIP"
- * 2. Please Press Enter or Click Enter
- * 3. Decoded data will be shown light pink area \n
-   ex) "Runway" or "Work In Progress"
+ 1. Please input word of "E)" in "CONTRACTIONS(light yellow) 
+    ex) "RWY" or "WIP"
+ 2. Please Press Enter or Click Enter
+ 3. Decoded data will be shown light pink area \n
+    ex) "Runway" or "Work In Progress"
    
    ![image](https://user-images.githubusercontent.com/85727063/122013132-d8ee2000-cdf8-11eb-8862-eff705b88d49.png)
 
