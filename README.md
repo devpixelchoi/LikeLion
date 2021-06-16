@@ -3,7 +3,7 @@
 # Notam_Decoder
  * tkinter practice project
 
-# How to Ues
+# How to Use
  * Sample NOTAM(Notice To Airmen)  
  A0397/21 NOTAMN   
  Q) RKRR/QMRLC/IV/NBO/A/000/999/3728N12626E005  
