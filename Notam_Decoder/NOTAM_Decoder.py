@@ -8,9 +8,11 @@ import os       # 폴더를 만들고 삭제.... 현재 폴더 위치.
 #print(os.getcwd())      # getcwd : get current working directory
 
 # 파일불러오기
+pd.set_option('display.max_row', 500)
+pd.set_option('display.max_columns', 150)
 dat = pd.read_excel("./NOTAM_Decoder.xlsx") #, encoding='utf-8')
-# subset = dat.head(n=359)[['CONTRACTIONS','DECODE']]
-print(dat)
+subset = dat.head(n=359)[['CONTRACTIONS','DECODE']]
+# print(dat)
 # print(subset)
 # 기능추가
 # 제출 버튼을 클릭했을 때, 동작 기능.
@@ -40,7 +42,7 @@ label1 = Label(window, text = "CONTRACTIONS : ")
 label1.grid(row=0, column=0, sticky=W)
 
 # 02 텍스트 입력이 가능한 상자(Entry)
-entry = Entry(window, width=60, bg="light yellow")
+entry = Entry(window, width=75, bg="light yellow")
 entry.grid(row=1, column=0, sticky=W)
 
 # 03 제출버튼 추가
@@ -49,20 +51,20 @@ btn.grid(row=2, column=0, sticky=W)
 
 
 # 04 설명 레이블 - 의미
-label2 = Label(window, width=60, bg="light blue" ,text = "DECODE")
+label2 = Label(window, width=75, bg="light blue" ,text = "DECODE")
 label2.grid(row=3,column=0) #, sticky=W)
 
 # 05 텍스트 박스 입력 상자
 # columnspan=2 는 (4,0)~(4,1) 위치까지 분포
-output = Text(window, width=60, height=5, wrap=WORD, background="light pink")
+output = Text(window, width=75, height=3, wrap=WORD, background="light pink")
 output.grid(row=4, column=0, columnspan=2, sticky=W)
 # 06 전체 리스트 출력
-label3 = Label(window, width=60, bg="light blue" ,text = "List")
+label3 = Label(window, width=75, bg="light blue" ,text = "List")
 label3.grid(row=5, column=0) #, stickey=W, pady=10, padx=5)
 
-scrollbar = tkinter.scrolledtext.ScrolledText(window, width=57, height=20, background="light green")
+scrollbar = tkinter.scrolledtext.ScrolledText(window, width=73, height=20, background="light green")
 scrollbar.grid(row=6, column=0,  sticky=W)
-scrollbar.insert(INSERT,dat)
+scrollbar.insert(INSERT,subset)
 scrollbar.configure(state='disabled')
 
 #
