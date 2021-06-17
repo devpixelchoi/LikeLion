@@ -1,5 +1,18 @@
 # Notam_Decoder
  * tkinter practice project
+# Whiat is NOTAM
+ * A NOTAM is a notice containing information that is essential to
+   personnel concerned with flight operations but that is not
+   known far enough in advance to be publicized by other means.
+   NOTAMs concern the establishment, condition, or change of any
+   component (facility, service, procedure, or hazard) in the NAS.
+   They must state the abnormal status of a component of the NAS(not the normal status).  
+   <Ref : https://www.faasafety.gov/files/notices/2019/Feb/Pilots_NOTAM_primer_1-28-19.pdf>
+   
+   * Notam Search Links: 
+     - FAA(Federal Aviation Administration) : https://www.notams.faa.gov/dinsQueryWeb/
+     - ICAO(International Civil Aviation Organization) : https://www.icao.int/safety/istars/pages/notams.aspx
+     - xNOTAM(Aeronautical Information System of KOREA): https://aim.koca.go.kr/xNotam/?language=ko_KR
 
 # How to Use
  * Sample NOTAM(Notice To Airmen)  
