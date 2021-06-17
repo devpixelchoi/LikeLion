@@ -1,6 +1,6 @@
 # Notam_Decoder
  * tkinter practice project
-# Whiat is NOTAM
+# Whiat is NOTAM(Notice To Airmen)
  * A NOTAM is a notice containing information that is essential to
    personnel concerned with flight operations but that is not
    known far enough in advance to be publicized by other means.
