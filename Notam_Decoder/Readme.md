@@ -7,7 +7,7 @@
    NOTAMs concern the establishment, condition, or change of any
    component (facility, service, procedure, or hazard) in the NAS.
    They must state the abnormal status of a component of the NAS(not the normal status).  
-   <Ref : https://www.faasafety.gov/files/notices/2019/Feb/Pilots_NOTAM_primer_1-28-19.pdf>
+   <Ref : https://www.faasafety.gov/files/notices/2019/Feb/Pilots_NOTAM_primer_1-28-19.pdf >
    
    * Notam Search Links: 
      - FAA(Federal Aviation Administration) : https://www.notams.faa.gov/dinsQueryWeb/
