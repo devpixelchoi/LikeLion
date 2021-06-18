@@ -11,8 +11,9 @@ import os       # 폴더를 만들고 삭제.... 현재 폴더 위치.
 pd.set_option('display.max_row', 500)
 pd.set_option('display.max_columns', 150)
 dat = pd.read_excel("./NOTAM_Decoder.xlsx") #, encoding='utf-8')
+# dat = pd.DataFrame(dat)
 subset = dat.head(n=359)[['CONTRACTIONS','DECODE']]
-# print(dat)
+print(dat)
 # print(subset)
 # 기능추가
 # 제출 버튼을 클릭했을 때, 동작 기능.
